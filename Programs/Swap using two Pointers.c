@@ -1,6 +1,5 @@
 #include <stdio.h>
-void main()
-{
+int main() {
 	int a,b,*p,*q,t;
 	p=&a;
 	q=&b;
@@ -11,4 +10,5 @@ void main()
 	*q=t;
 	printf("numbers after swapping\n");
 	printf("a=%d\tb=%d\n",*p,*q);
+	return 0;
 }

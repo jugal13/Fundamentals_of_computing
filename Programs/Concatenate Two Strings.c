@@ -1,6 +1,5 @@
 #include <stdio.h>
-void main()
-{
+int main() {
 	char s1[20],s2[20];
 	int i,j;
 	printf("enter the two strings\n");
@@ -10,4 +9,5 @@ void main()
 		s1[i+j]=s2[j];
 	s1[i+j]='\0';
 	printf("the concatenated string is %s",s1);
+	return 0;
 }
