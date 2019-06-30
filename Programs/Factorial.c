@@ -8,9 +8,9 @@ int main() {
   return 0;
 }
 long factorial(int n) {
-  int fact=1,i;
+  int f=1,i;
   for(i=n;i>0;i++) {
-    fact*=i;
+    f*=i;
   }
-  return fact;
+  return f;
 }

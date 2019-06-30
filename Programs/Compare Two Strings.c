@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main() {
+int main() {
 	char s1[20],s2[20];
 	int i,j,flag=1;
 	printf("Enter the two strings\n");
@@ -23,4 +23,5 @@ void main() {
 	else {
 		printf("Strings are not the same\n");
 	}
+	return 0;
 }

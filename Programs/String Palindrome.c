@@ -2,7 +2,7 @@
 int main() {
 	char str[20];
 	int i,j,len,flag=1;
-	printf("enter the string\n");
+	printf("Enter the string\n");
 	scanf("%s",str);
 	for(len=0;str[len]!='\0';len++);
 	for(i=0,j=len-1;i<len/2;i++,j--) {
@@ -12,10 +12,10 @@ int main() {
 		}
 	}
 	if (flag) {
-		printf("string is palindrome\n");
+		printf("String is palindrome\n");
 	}
 	else {
-		printf("string is not palindrome\n");
+		printf("String is not palindrome\n");
 	}
 	return 0;
 }

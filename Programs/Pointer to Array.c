@@ -13,4 +13,5 @@ int main() {
     sum+=*(ptr+i);
   }
   printf("The sum of array elements: %d\n", sum);
+  return 0;
 }

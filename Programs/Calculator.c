@@ -2,27 +2,27 @@
 int main() {
 	int a,b;
 	char op;
-	printf("enter the numbers\n");
+	printf("Enter the numbers\n");
 	scanf("%d%d",&a,&b);
-	printf("enter the operator\n");
+	printf("Enter the operator\n");
 	scanf("%c",&op);
 	switch(op) {
-		case '+': printf("sum=%d\n",a+b);
+		case '+': printf("Sum=%d\n",a+b);
 				  		break;
-		case '-': printf("difference=%d\n",a-b);
+		case '-': printf("Difference=%d\n",a-b);
 				  		break;
-		case '*': printf("product=%d\n",a*b);
+		case '*': printf("Product=%d\n",a*b);
 				  		break;
 		case '/': if (b==0) {
 								printf("Divide by zero error\n");
 				  		}
 				  		else {
-								printf("quotient=%d\n",a/b);
+								printf("Quotient=%d\n",a/b);
 				  		}
 				  		break;
-		case '%': printf("remainder=%d\n",a%b);
+		case '%': printf("Remainder=%d\n",a%b);
 				  		break;
-		default:  printf("invalid operation\n");
+		default:  printf("Invalid operation\n");
 	}
 	return 0;
 }

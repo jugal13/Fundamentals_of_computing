@@ -4,13 +4,17 @@ int main() {
   char ch;
   printf("Enter a character: ");
   scanf("%c",&ch);
-  if(isdigit(ch))
+  if(isdigit(ch)) {
     printf("Digit\n");
-  if(isalpha(ch))
+  }
+  if(isalpha(ch)) {
     printf("Alphabet\n");
-  if(isspace(ch)) 
+  } 
+  if(isspace(ch)) {
     printf("Whitespace\n");
-  if(ispunct(ch))
+  }
+  if(ispunct(ch)) {
     printf("Punctuation\n");
+  }
   return 0;
 }

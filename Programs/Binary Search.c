@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
 	int A[10],i,n,low,mid,high,ele,pos,flag=0;
-	printf("enter number of elements\n");
+	printf("Enter number of elements\n");
 	scanf("%d",&n);
-	printf("enter array elements\n");
+	printf("Enter array elements\n");
 	for(i=0;i<n;i++) {
 		scanf("%d",&A[i]);
 	}
-	printf("enter elements to be searched for\n");
+	printf("Enter elements to be searched for\n");
 	scanf("%d",&ele);
 	low=0;
 	high=n-1;
@@ -26,10 +26,10 @@ int main() {
 		}
 	}
 	if (flag) {
-		printf("element found at %d\n",pos);
+		printf("Element found at %d\n",pos);
 	}
 	else {
-		printf("element not found\n");
+		printf("Element not found\n");
 	}
 	return 0;
 }

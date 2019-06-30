@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int main()
-{
+int main() {
 	int i,j,A[10][10],m,n,trace=0,sum=0;
 	float norm;
 	printf("Enter the Order\n");
@@ -20,7 +19,7 @@ int main()
 			}
 		}
 		norm=sqrt((float)sum);
-		printf("trace=%d\nnorm=%f\n",trace,norm);
+		printf("Trace=%d\nNorm=%f\n",trace,norm);
 	}
 	else {
 		printf("Cannot find trace\n");
