@@ -31,7 +31,7 @@
 18. [Write and execute C program to find whether a given number is palindrome or not.](Programs/Number&#32Palindrome.c)
 19. [Write and execute C program to read numbers using keyboard and find the roots of a quadratic equation using else-if statement and display result.](Programs/Roots&#32of&#32a&#32Quadratic&#32Equation.c)
 20. [Write and execute C program to read an array of elements and sort the elements in ascending order using selection sort and display the result.](Programs/Selection&#32Sort.c)
-21. [Write and execute C program to demonstrate following string built-in functions strcmp(), strcat(),strcpy(),strstr(). Note: Read the strings from keyboard.](Programs/String functions.c)
+21. [Write and execute C program to demonstrate following string built-in functions strcmp(), strcat(),strcpy(),strstr(). Note: Read the strings from keyboard.](Programs/String&#32functions.c)
 22. [Write and execute C program to read a string from keyboard and find length of string without using built-in functions.](Programs/String&#32Length.c)
 23. [Write and execute C program to read a string from keyboard and check if it's palindrome or not without using built-in functions.](Programs/String&#32Palindrome.c)
 24. [Write and execute C program to define a structure student which contain student name, roll number, marks of 3 subjects (Maths, Chemistry, Physics) as members of structure and read the input for three students and display the same using array of structures ](Programs/Student&#32Structures.c)
